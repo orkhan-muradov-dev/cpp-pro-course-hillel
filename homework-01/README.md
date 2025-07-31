@@ -30,7 +30,7 @@ The goal is to practice writing generic (template) functions and understand the 
 
 ```bash
 
-g++ -std=c++17 -o program main.cpp
+g++ -std=c++14 -o program main.cpp
 
 ./program
 
