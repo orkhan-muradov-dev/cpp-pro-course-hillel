@@ -20,7 +20,7 @@ This repository contains my homework assignments for the C++ Pro Programming Cou
 
 - [HW #2: Move Semantics and Lambda Expressions](./homework-02/) – Focuses on implementing move semantics and using lambda expressions.
 
-- [HW #3: RAII and Smart Pointers](./homework-03/) – Applies RAII principles and smart pointers (`shared\_ptr`) in resource management.
+- [HW #3: RAII and Smart Pointers](./homework-03/) – Applies RAII principles and smart pointers (`shared_ptr`) in resource management.
 
 - [HW #4: Multithreading Basics](./homework-04/) – Introduces multithreading and task synchronization using a thread pool.
 
