@@ -14,13 +14,13 @@ This assignment involves developing a multithreaded banking system simulation wh
 
   * `deposit(amount)` — add funds
   * `withdraw(amount)` — remove funds with balance check
-  * `get\_balance()` — query current balance
+  * `get_balance()` — query current balance
 
 - Implement a `BankStatistics` class for transaction tracking:
 
-  * `record\_transaction(amount)` — log each transaction
-  * `get\_total\_transactions()` — count of all transactions
-  * `get\_total\_amount()` — sum of all transaction amounts
+  * `record_transaction(amount)` — log each transaction
+  * `get_total_transactions()` — count of all transactions
+  * `get_total_amount()` — sum of all transaction amounts
 
 - Simulate 5 cashier threads performing 100 random deposit or withdrawal operations each.
 
@@ -34,11 +34,11 @@ This assignment involves developing a multithreaded banking system simulation wh
 
 - `main.cpp` — Program entry, menu to select simulation version
 
-- `unsafe\_bank.h/cpp` — Unsafe bank account and statistics classes (no synchronization)
+- `unsafe_bank.h/cpp` — Unsafe bank account and statistics classes (no synchronization)
 
-- `safe\_bank.h/cpp` — Thread-safe bank account and statistics classes using mutex and atomic variables
+- `safe_bank.h/cpp` — Thread-safe bank account and statistics classes using mutex and atomic variables
 
-- `bank\_simulation.h` — Simulation framework running cashier threads and collecting statistics
+- `bank_simulation.h` — Simulation framework running cashier threads and collecting statistics
 
 - `banknote.h/cpp` — Functions generating random deposit/withdraw amounts
 
@@ -50,6 +50,6 @@ This assignment involves developing a multithreaded banking system simulation wh
 
 ```bash
 
-g++ -std=c++20 -pthread -o bank\_sim main.cpp unsafe\_bank.cpp safe\_bank.cpp banknote.cpp
+g++ -std=c++20 -pthread -o bank_sim main.cpp unsafe_bank.cpp safe_bank.cpp banknote.cpp
 
-./bank\_sim
+./bank_sim
