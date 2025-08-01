@@ -11,21 +11,15 @@ This assignment involves developing a multithreaded banking system simulation wh
 ### Requirements:
 
 - Implement a `BankAccount` class with methods:
-
   * `deposit(amount)` — add funds
   * `withdraw(amount)` — remove funds with balance check
   * `get_balance()` — query current balance
-
 - Implement a `BankStatistics` class for transaction tracking:
-
   * `record_transaction(amount)` — log each transaction
   * `get_total_transactions()` — count of all transactions
   * `get_total_amount()` — sum of all transaction amounts
-
 - Simulate 5 cashier threads performing 100 random deposit or withdrawal operations each.
-
 - Part 1: Implement an unsafe version **without synchronization** to observe race conditions and inconsistencies.
-
 - Part 2: Implement a safe version **with synchronization** using mutexes and atomic variables to ensure thread safety and consistent results.
 
 
