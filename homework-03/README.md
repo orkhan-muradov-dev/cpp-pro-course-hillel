@@ -32,7 +32,7 @@ This homework focuses on applying **RAII (Resource Acquisition Is Initialization
 
 - Create a class `Sensor` that:
 
-  * Holds readings in a `std::shared\_ptr<std::vector<int>>`
+  * Holds readings in a `std::shared_ptr<std::vector<int>>`
 
   * Provides methods to add and print readings
 
