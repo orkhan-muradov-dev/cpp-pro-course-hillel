@@ -16,7 +16,7 @@ This homework focuses on applying **RAII (Resource Acquisition Is Initialization
 
   * Closes the file in its destructor using `std::fclose`
 
-  * Has a method `write(const std::string\&)` for writing text to the file
+  * Has a method `write(const std::string&)` for writing text to the file
 
 
 
