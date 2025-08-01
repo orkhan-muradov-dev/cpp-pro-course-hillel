@@ -45,6 +45,3 @@ cd homework-XX
 g++ -o program main.cpp
 
 ./program
-
-
-
