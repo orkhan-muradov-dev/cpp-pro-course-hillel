@@ -58,7 +58,7 @@ Demonstrate shared ownership by:
 
 ```bash
 
-g++ -std=c++17 -o program main.cpp
+g++ -std=c++14 -o program main.cpp
 
 ./program
 
