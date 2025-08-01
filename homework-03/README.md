@@ -10,13 +10,13 @@ This homework focuses on applying **RAII (Resource Acquisition Is Initialization
 
 ### Part 1: FileManager Class
 
-Create a class `FileManager` that:
+- Create a class `FileManager` that:
 
-- Opens a file in its constructor using `std::fopen`
+* Opens a file in its constructor using `std::fopen`
 
-- Closes the file in its destructor using `std::fclose`
+* Closes the file in its destructor using `std::fclose`
 
-- Has a method `write(const std::string\&)` for writing text to the file
+* Has a method `write(const std::string\&)` for writing text to the file
 
 
 
@@ -30,21 +30,21 @@ Create a class `FileManager` that:
 
 ### Part 2: Sensor Class with Shared Data
 
-Create a class `Sensor` that:
+- Create a class `Sensor` that:
 
-- Holds readings in a `std::shared\_ptr<std::vector<int>>`
+* Holds readings in a `std::shared\_ptr<std::vector<int>>`
 
-- Provides methods to add and print readings
+* Provides methods to add and print readings
 
-- Supports shared ownership of the readings between multiple `Sensor` instances
+* Supports shared ownership of the readings between multiple `Sensor` instances
 
 
 
-Demonstrate shared ownership by:
+- Demonstrate shared ownership by:
 
-- Creating two `Sensor` objects that share the same vector
+* Creating two `Sensor` objects that share the same vector
 
-- Adding and printing readings from both objects
+* Adding and printing readings from both objects
 
 
 
