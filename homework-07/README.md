@@ -35,27 +35,27 @@ This project outlines the software design for an online cinema system. The platf
 
 ### Use Case Diagram
 
-  * **File**: [`use-case.png`](https://www.google.com/search?q=diagrams/use-case.png)
+  * **File**: [`use-case.png`](./diagrams/use-case.png)
   * **Description**: This diagram illustrates the high-level functionality of the system from the user's perspective. It defines the system's actors (`Guest`, `RegisteredUser`, `Admin`) and their interactions with the system's core use cases. The relationships, such as `<<include>>` and `<<extend>>`, are used to show dependencies and optional behaviors, providing a clear overview of the system's scope.
 
 ### Class Diagram
 
-  * **File**: [`class-diagram.png`](https://www.google.com/search?q=diagrams/class-diagram.png)
+  * **File**: [`class-diagram.png`](./diagrams/class-diagram.png)
   * **Description**: A detailed diagram that models the static structure of the system. It defines the main classes (`User`, `Movie`, `Purchase`, `Rental`, `Review`, `PaymentMethod`, etc.), their attributes, and their methods. This diagram also specifies the relationships between classes, such as inheritance (e.g., `RegisteredUser` inheriting from `User`), association, and aggregation, which are crucial for understanding the data model.
 
 ### Sequence Diagrams
 
-  * **File**: [`sequence-purchase.png`](https://www.google.com/search?q=diagrams/sequence-purchase.png)
+  * **File**: [`sequence-purchase.png`](./diagrams/sequence-purchase.png)
 
   * **Description**: This diagram visualizes the flow of actions and interactions between system components for the "User buys a movie" scenario. It shows the temporal sequence of messages passed between objects, from movie selection and authorization to payment processing and final access to the movie.
 
-  * **File**: [`sequence-watch-rented-movie.png`](https://www.google.com/search?q=diagrams/sequence-watch-rented-movie.png)
+  * **File**: [`sequence-watch-rented-movie.png`](./diagrams/sequence-watch-rented-movie.png)
 
   * **Description**: This diagram details the dynamic flow for the "User watches a rented movie" scenario. It highlights the sequence of events and the conditional logic (`alt` block) for handling a valid rental versus an expired one, providing insight into the system's real-time behavior.
 
 ### State Diagram
 
-  * **File**: [`state-rental.png`](https://www.google.com/search?q=diagrams/state-rental.png)
+  * **File**: [`state-rental.png`](./diagrams/state-rental.png)
   * **Description**: This diagram models the lifecycle of the `Rental` object. It outlines the different states an object can be in (`Created`, `Active`, `Expired`, `Canceled`) and the events that trigger transitions between these states, such as `Payment Processed` or `Rental Period Expires`. This is essential for understanding the object's behavior over time.
 
 -----
