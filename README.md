@@ -26,6 +26,10 @@ This repository contains my homework assignments for the C++ Pro Programming Cou
 
 - [HW #5: Synchronization and Thread Safety in a Bank System](./homework-05/) – Demonstrates race conditions and their resolution with mutexes and atomic operations.
 
+- [HW #6: Git and GitHub Setup](./homework-06/) – Focuses on setting up a professional Git repository structure and workflow for the course.
+
+- [HW #7: Online Cinema - UML Project](./homework-07/) – Outlines the software design for an online cinema system using various UML diagrams.
+
 
 
 ## How to Run
